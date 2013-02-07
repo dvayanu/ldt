@@ -11,7 +11,7 @@ import ldt.threads.ThreadDumpReader;
 public class CompareStackTraces {
 	public static void main(String a[]) throws Exception{
 		//ThreadDumpReader.compare("2013-02-07/jstack-2013-02-07-09-58.txt", "2013-02-07/jstack-2013-02-07-01-23.txt");
-		ThreadDumpReader.compare("2013-02-07/jstack-2013-02-07-11-48.txt", "2013-02-07/jstack-2013-02-07-11-40.txt");
+		ThreadDumpReader.compare("2013-02-07/jstack-2013-02-07-14-35.txt", "2013-02-07/jstack-2013-02-07-14-07.txt");
 
 /*		ThreadDumpReader.compare("2013-02-06/jstack-2013-02-06-11-45.txt","2013-02-06/jstack-2013-02-06-10-44.txt");
 
