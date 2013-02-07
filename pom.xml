@@ -13,9 +13,12 @@
   <name>ldt</name>
 
   <build>
-      <sourceDirectory>
-          test/java
+        <sourceDirectory>
+          java
       </sourceDirectory>
+      <testSourceDirectory>
+          test/java
+      </testSourceDirectory>
   </build>
 
   <dependencies>

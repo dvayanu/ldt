@@ -10,8 +10,10 @@ import ldt.threads.ThreadDumpReader;
  */
 public class CompareStackTraces {
 	public static void main(String a[]) throws Exception{
+		//ThreadDumpReader.compare("2013-02-07/jstack-2013-02-07-09-58.txt", "2013-02-07/jstack-2013-02-07-01-23.txt");
+		ThreadDumpReader.compare("2013-02-07/jstack-2013-02-07-11-48.txt", "2013-02-07/jstack-2013-02-07-11-40.txt");
 
-		ThreadDumpReader.compare("2013-02-06/jstack-2013-02-06-11-45.txt","2013-02-06/jstack-2013-02-06-10-44.txt");
+/*		ThreadDumpReader.compare("2013-02-06/jstack-2013-02-06-11-45.txt","2013-02-06/jstack-2013-02-06-10-44.txt");
 
 		ThreadDumpReader.compare("2013-02-06/jstack-2013-02-06-11-55.txt","2013-02-06/jstack-2013-02-06-11-45.txt");
 
@@ -20,6 +22,6 @@ public class CompareStackTraces {
 		ThreadDumpReader.compare("2013-02-06/jstack-2013-02-06-12-01-updatefinished.txt", "2013-02-06/jstack-2013-02-06-11-57-syncstarted.txt");
 
 		ThreadDumpReader.compare("2013-02-06/jstack-2013-02-06-14-07.txt", "2013-02-06/jstack-2013-02-06-10-44.txt");
-
+  */
 	}
 }
