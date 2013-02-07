@@ -182,7 +182,11 @@ public class ThreadDumpReader {
 
 		System.out.println("=== STUCK: ");
 		for (Iterator<DebugThread> it = stuck.iterator(); it.hasNext(); ){
-			System.out.println(it.next());
+			DebugThread dt = it.next();
+			if (dt.calls.size()>2)
+				System.out.println(dt +" in "+dt.calls.get(1));
+			else
+		       System.out.println(dt);
 		}
 	}
 
